@@ -29,6 +29,9 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+
+    <!-- 1. Import the @botpoison/browser script -->
+    <script src="https://unpkg.com/@botpoison/browser" async></script>
 </head>
 
 <body>
@@ -119,7 +122,8 @@
                 <div class="col-lg-6">
                     <div class="bg-white rounded mb-0">
                         <h2 class="text-center py-4">Send Us A Message</h2>
-                        <form class="contact-form" action="https://submit-form.com/lnAJUVxzb" method="post">
+                        <form class="contact-form" action="https://submit-form.com/lnAJUVxzb" method="post"
+                            data-botpoison-public-key="pk_24713087-dc67-4809-8afb-4557388d1e0b">
                             <div class="row g-3">
                                 <div class="col-12 col-sm-6">
                                     <input type="text" class="form-control bg-light border-0" placeholder="Your Name" style="height: 55px;">
