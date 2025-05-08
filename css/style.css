@@ -112,7 +112,7 @@ body{
 }
 
 .hero-header {
-    background: url(../img/bg.jpg) top right no-repeat;
+    background: url(../img/hero-bg.jpg) top right no-repeat;
     background-size: cover;
 }
 
