@@ -21,7 +21,7 @@
     --bs-primary: #749c8d;
     --bs-secondary: #9b5404;
     --bs-success: #198754;
-    --bs-info: #0dcaf0;
+    --bs-info: #749c8d;
     --bs-warning: #ffc107;
     --bs-danger: #dc3545;
     --bs-light: #EFF5F9;
@@ -8146,7 +8146,7 @@ fieldset:disabled .btn {
 }
 
 .text-info {
-    color: #0dcaf0 !important
+    color: #749c8d !important
 }
 
 .text-warning {
