@@ -1,9 +1,9 @@
 /********** Template CSS **********/
 :root {
-    --primary: #13C5DD;
-    --secondary: #354F8E;
+    --primary: #749c8d;
+    --secondary: #9b5404;
     --light: #EFF5F9;
-    --dark: #1D2A4D;
+    --dark: #9b5404;
 }
 
 body{
@@ -119,6 +119,12 @@ body{
 @media(min-width: 991.98px) {
     .hero-header {
         height: 90vh;
+    }
+}
+
+@media(max-width: 991.98px) {
+    .hero-header {
+        min-height: 60vh;
     }
 }
 
@@ -284,6 +290,10 @@ body{
         margin-top: 30px;
         margin-bottom: 30px;
     }
+
+    .hero-text-mobile{
+        display: none;
+    }
 }
 
 @media (max-width: 991.98px) {
@@ -298,8 +308,8 @@ body{
     background-size: cover;
 }
 
-.sticky-topbar{
+/* .sticky-topbar{
     position: sticky;
     top: 40px;
     z-index: 1020
-}
+} */
